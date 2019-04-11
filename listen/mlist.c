@@ -23,6 +23,7 @@ mlist_t *mlNewList() {
 
 
     tnode_t *head = mlNewTNode();
+    // TODO if head == NULL return ERROR
     head->next = NULL;
     head->tcb = NULL;
 
